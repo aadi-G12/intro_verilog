@@ -1,0 +1,7 @@
+*.vcd
+*.fst
+*.vvp
+a.out
+obj_dir/
+*.log
+*.save
