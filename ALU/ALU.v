@@ -30,8 +30,6 @@ module ALU #(parameter N = 32) (
   assign ALUflags[3] = y[N-1] == 1; 
   assign ALUflags[2] = y == 0;
   assign ALUflags[1] = cout;
-  assign ALUflags[0] = ~(a[N-1] ^ bb[N-1) & (a[N-1] != s[N-1]);
-
-
+  assign ALUflags[0] = ~(a[N-1] ^ bb[N-1]) & (a[N-1] != s[N-1]);
 
 endmodule
