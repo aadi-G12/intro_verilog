@@ -1,0 +1,1 @@
+module adder #(parameter N = 32) (input [N-1:0] a, b, output [N-1:0] y); assign y = a + b; endmodule
